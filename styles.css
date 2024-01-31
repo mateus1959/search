@@ -1,0 +1,30 @@
+form {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.button {
+    font-size: large;
+    height: 40px;
+    margin: 20px;
+}
+
+.inputField {
+    border-radius: 32px;
+    font-size: large;
+    height: 40px;
+    width: 500px;
+}
+
+.advInputField {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 400px
+}
+
+.advButton {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: white;
+    padding: 12px;
+}
