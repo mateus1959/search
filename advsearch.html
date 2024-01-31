@@ -5,28 +5,47 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div style="text-align: right;" >
+        <div class="topMenu">
             <a href="index.html">Google Search</a>
         </div>
-        <div style="margin-left: 40px;">
-            <p style="color: rgb(211, 0, 0);">Advanced Search</p>
-            <form style="text-align: left; margin-top: 40px;" action="https://www.google.com/search">
-                <div>
-                    all these words:<input class="advInputField" type="text" name="as_q">
+        <div class="advancedSearch">
+            <label>Advanced Search</p>
+        </div>
+        <hr>
+        <div class="mainContent">
+            <form action="https://www.google.com/search">
+                <div class="findPagesWith">
+                    <span>Find pages with...</span>
                 </div>
                 <div>
-                    this exact word or phrase:<input class="advInputField" type="text" name="as_epq">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><label class="advSearchFieldLabel">all these words:</label></td>
+                                <td><input class="advInputField" type="text" name="as_q"></td>
+                            </tr>
+                            <tr>
+                                <td><label class="advSearchFieldLabel">this exact word or phrase:</label></td>
+                                <td><input class="advInputField" type="text" name="as_epq"></td>
+                            </tr>
+                            <tr>
+                                <td><label class="advSearchFieldLabel">any of these words:</label></td>
+                                <td><input class="advInputField" type="text" name="as_oq"></td>
+                            </tr>
+                            <tr>
+                                <td><label class="advSearchFieldLabel">none of these words:</label></td>
+                                <td><input class="advInputField" type="text" name="as_eq"></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div>
-                    any of these words:<input class="advInputField" type="text" name="as_oq">
+                    <input class="advButton" type="submit" value="Google Advanced Search">
                 </div>
-                <div>
-                    none of these words:<input class="advInputField" type="text" name="as_eq">
-                </div>
-                <br><br>
-                <input class="advButton" type="submit" value="Google Advanced Search">
             </form>
         </div>
-
+        <!-- Script for the "I'm feeling lucky" feature -->
+            <!-- Goes here -->
+        <!--  -->
     </body>
 </html>
